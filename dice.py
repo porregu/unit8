@@ -16,4 +16,16 @@ six_side.grid(row=3, column=1)
 eight_side = Radiobutton(root, text="8 side", variable=side_choice, value=8)
 eight_side.grid(row=4, column=1)
 
+ten_side = Radiobutton(root, text = "10 side", variable=side_choice,value=10)
+ten_side.grid(row=5, column=1)
+
+twenty_side = Radiobutton(root, text = "20 side", variable=side_choice,value=20)
+twenty_side.grid(row=6, column=1)
+
+roll_button = Button(root, text="roll dice")
+roll_button.grid(row=7, column=1)
+
+roll_result = Label(root, text="0")
+roll_result.grid(row=8, column=1)
+
 root.mainloop()
